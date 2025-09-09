@@ -1,7 +1,8 @@
 ﻿# Starter Project (Under development)
 <p>All about rockets and some stuff</p>
 
-## Demo
+Demo:
+<br>
 ![Rocket GIF](https://user-images.githubusercontent.com/your-username/your-image.gif)
 
 Snaps:
