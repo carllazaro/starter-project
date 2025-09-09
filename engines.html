@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Rocket Hub</title>
+    <link rel="icon" href="assets/rocket-logo.png">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <video autoplay muted loop id="bgVideo">
+        <source src="assets/rocket.mp4" type="video/mp4" />
+    </video>
+
+    <div class="background-overlay">
+        <div id="div_1">
+            <div class="logo-title">
+                <img src="assets/moving_rocket.gif" class="rocket-logo" alt="Rocket Hub Logo" />
+                <h2 id="header_1">
+                    <div id="rocket_title">
+                        <span class="rocket_unbold">rocket</span>hub
+                    </div>
+                </h2>
+            </div>
+
+            <nav class="navbar">
+                <ul class="navbar-items">
+                    <li><a href="rocket.html">Home</a></li>
+                    <li><a href="engines.html">Engines</a></li>
+                    <li><a href="">History</a></li>
+                    <li><a href="">Tragedies</a></li>
+                </ul>
+            </nav>
+
+            <div class="input-wrapper">
+                <img src="assets/search icon.png" class="input-icon" alt="icon" />
+                <input type="text" id="input_1" placeholder="Search..." />
+            </div>
+
+            <div class="auth-buttons">
+                <button id="button_1">Log in</button>
+                <button id="button_2">Sign up</button>
+            </div>
+        </div>
+        <div class="front-engine">
+            <h1>
+                Engines
+            </h1>
+            <div id="header_saturn">
+                <h3>Saturn V</h3>
+                <p id="paragraph_1">The Saturn V was a retired, American, three-stage, liquid-fueled rocket that NASA developed for the Apollo program to send humans to the Moon. It was the most powerful rocket to have ever successfully flown, launched astronauts on multiple missions to orbit and land on the Moon, and also launched the Skylab space station. The Saturn V is considered one of history's greatest engineering achievements, with several existing examples on display at museums.  </p>
+                <img src="assets/saturnVlogoNASA.png" id="saturnVlogo" alt="Saturn V NASA Logo">
+                <img src="assets/NASA.png" id="NASALogo" alt="NASA Logo">
+            </div>
+        </div>
+
+        <div id="container3D"></div>
+
+        <!--
+        <div class="video-wrap">
+            <video id="saturnvid" controls preload="metadata" poster="assets/saturn-poster.jpg">
+                <source src="assets/SaturnVLaunch.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+            <button class="play-btn" aria-label="Play video">
+                <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                    <circle cx="50" cy="50" r="48" stroke="white" stroke-width="4" fill="rgba(0,0,0,0.6)"/>
+                    <polygon points="40,30 70,50 40,70" fill="white"/>
+                </svg>
+            </button>
+        </div>
+        -->
+
+    </div>
+    
+    <script type="module" src="models.js"></script>
+    <script src="script.js"></script>
+</html>
